@@ -13,7 +13,7 @@ class Botton extends React.Component{
     render(){
         return(
             <MainContainer>
-                <p>Desenvolvido por: Bruno Siqueira | brunosp49@yahoo.com.br</p>
+                <p>Desenvolvido por: Bruno Siqueira | brunosp49@yahoo.com.br </p>
             </MainContainer>
         )
     }
