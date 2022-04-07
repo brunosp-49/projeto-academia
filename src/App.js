@@ -78,7 +78,7 @@ class App extends React.Component {
   onChangeNumberInput = (event) =>{
     this.setState({numberInput: event.target.value})
     if(event.target.value <= 6 && event.target.value >= 0){
-      this.setState(this.state.currentEx = dataBase.filter(({ id }) => id == event.target.value ))
+      this.setState(this.state.currentEx = dataBase.filter(({ id }) => id === event.target.value ))
     } 
   }
 
